@@ -6,12 +6,14 @@ import Estoque from './Estoque';
 const Login = (navigation) => {
     return (
         <View>
+        <Text>E-mail</Text>
             <TextInput
-                value='E-mail'
+                
             />
-
+        
+        <Text>Senha</Text>
             <TextInput
-                value='Senha'
+                
             />
 
             <TouchableOpacity onPress={() =>
