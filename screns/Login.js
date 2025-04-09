@@ -15,7 +15,7 @@ const Login = (navigation) => {
             />
 
             <TouchableOpacity onPress={() =>
-                navigation.navigate('Estoque')} >
+                navigation.navigate('drawr')} >
                 <Text>Login</Text>
             </TouchableOpacity>
         </View>

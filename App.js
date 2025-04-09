@@ -12,7 +12,7 @@ import FaleConosco from './screns/FaleConosco';
 function drawrNav() {
   const Drawer = createDrawerNavigator();
   
-  return (
+   return (
     <Drawer.Navigator>
       <Drawer.Screen name="Estoque" component={Estoque} />
       <Drawer.Screen name="Fale conosco" component={FaleConosco} />
